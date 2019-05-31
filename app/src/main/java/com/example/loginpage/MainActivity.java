@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<User> call, Throwable t) {
-                mtextshow.setText(t.getMessage());//
+                mtextshow.setText(t.getMessage());//我要傳上github
             }
         });
     }
